@@ -1,13 +1,8 @@
 export { default as App } from './App.jsx'
 export { default as Home } from './Home.jsx'
-export { default as MeetTheBear } from './MeetTheBear.jsx'
+export { default as Meet } from './Meet.jsx'
+export { default as Gear } from './Gear.jsx'
+export { default as Sponsor } from './Sponsor.jsx'
+export { default as Train } from './Train.jsx'
+export { default as Contact } from './Contact.jsx'
 
-const MeetTheBear = () => {
-    return (
-        <div>
-            Meet the BEAR
-        </div>
-    )
-}
-
-export default MeetTheBear;

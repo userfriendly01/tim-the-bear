@@ -1,6 +1,10 @@
 import {
   Home,
-  MeetTheBear
+  Meet,
+  Gear,
+  Sponsor,
+  Train,
+  Contact
 } from '../pages'
 
 export const routes = [
@@ -10,7 +14,23 @@ export const routes = [
       component: Home
     },
     {
-      path: "/bear",
-      component: MeetTheBear
+      path: "/meet",
+      component: Meet
+    },
+    {
+      path: "/gear",
+      component: Gear
+    },
+    {
+      path: "/sponsor",
+      component: Sponsor
+    },
+    {
+      path: "/train",
+      component: Train
+    },
+    {
+      path: "/contact",
+      component: Contact
     }
 ];
