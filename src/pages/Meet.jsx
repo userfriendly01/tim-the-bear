@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container } from '../components'
 
 const Meet = () => {
     return (
-        <div>
+        <Container>
             MEET THE BEAAARRRR
-        </div>
+        </Container>
     )
 }
 

@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container } from '../components'
 
 const Gear = () => {
     return (
-        <div>
+        <Container>
             GEAR BABY
-        </div>
+        </Container>
     )
 }
 

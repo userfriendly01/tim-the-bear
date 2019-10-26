@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container } from '../components'
 
 const Sponsor = () => {
     return (
-        <div>
+        <Container>
             Gimme yo money
-        </div>
+        </Container>
     )
 }
 

@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container } from '../components'
 
 const Contact = () => {
     return (
-        <div>
+        <Container>
             Call me, Beep me, if you want to reach me
-        </div>
+        </Container>
     )
 }
 

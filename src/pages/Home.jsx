@@ -1,10 +1,13 @@
 import React from 'react'
+import { Container } from '../components'
 
 const Home = () => {
     return (
-        <div>
+        <Container>
             I'm Home!
-        </div>
+
+            
+        </Container>
     )
 }
 

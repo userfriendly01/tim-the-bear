@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container } from '../components'
 
 const Train = () => {
     return (
-        <div>
+        <Container>
             Let's get swol
-        </div>
+        </Container>
     )
 }
 
