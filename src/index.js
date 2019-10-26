@@ -1,11 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Header from '../src/components/Header.jsx'
+import App from '../src/pages/App.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.render(
-    <div>
-        <Header />
-        Sup App
-    </div>,
-    document.getElementById("root")
+ReactDOM.render (
+  <App />,
+  document.getElementById("root")
 );
